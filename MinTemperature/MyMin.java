@@ -81,5 +81,4 @@ public class MyMin {
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
 
 	}
-
 }
