@@ -79,6 +79,7 @@ public class MyMin {
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		OutputPath.getFileSystem(conf).delete(OutputPath);
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
+		
 
 	}
 }
